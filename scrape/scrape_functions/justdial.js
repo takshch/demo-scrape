@@ -30,7 +30,7 @@ const scrapeActions = async (page) => {
 const justDialScraper = async (url) => {
   console.log('starting scraping...');
   const result = await scrapeByPageActions(url, scrapeActions);
-  console.log(result);
+  return result;
 };
 
 module.exports = { justDialScraper };

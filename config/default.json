@@ -1,3 +1,4 @@
 {
-  "browserConfig": {}
+  "browserConfig": {},
+  "port": 4000
 }
