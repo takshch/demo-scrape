@@ -12,7 +12,7 @@ const scrapeByPageActions = async (url, cb) => {
 
     return result;
   } catch (e) {
-    console.log(e);
+    throw new Error(e);
   }
 };
 

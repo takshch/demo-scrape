@@ -4,8 +4,6 @@ const getPage = async (browser, url) => {
   let page;
 
   try {
-    console.log('Opening new page: ' + url);
-
     page = await browser.newPage();
     page.setDefaultNavigationTimeout(60000);
 

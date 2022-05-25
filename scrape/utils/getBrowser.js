@@ -10,7 +10,6 @@ const getBrowser = async () => {
   let browser;
 
   try {
-    console.log('trying to open the browser');
     browser = await puppeteer.launch(browserConfig);
   } catch (err) {
     throw new Error(err);
